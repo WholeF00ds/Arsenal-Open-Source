@@ -11,7 +11,7 @@ Section:NewButton("Darkrai X", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter", true))()
 end)
 
-Section:NewButton("Players ESP", "", function()
+Section:NewButton("ESP Hax", "", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/ColdStep2/Arsenal-Green-Box-Script-Original-/main/Arsenal%20Green%20Box%20Script%20(Original)'),true))()
 end)
 
