@@ -1,0 +1,20 @@
+-- Gui
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Arsenal", "Midnight")
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("Scripts")
+
+--Stuff
+
+Section:NewButton("Darkrai X", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter", true))()
+end)
+
+Section:NewButton("Players ESP", "", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ColdStep2/Arsenal-Green-Box-Script-Original-/main/Arsenal%20Green%20Box%20Script%20(Original)'),true))()
+end)
+
+Section:NewButton("Project BS", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
+end)
